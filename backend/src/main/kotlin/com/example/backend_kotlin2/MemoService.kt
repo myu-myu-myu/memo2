@@ -1,9 +1,13 @@
 package com.example.backend_kotlin2
 
+import org.springframework.stereotype.Service
+
 interface MemoService {
     fun getMemos ():List<Memo>
     fun postMemo (memo:Memo):Memo
 }
+
+@Service
 class MemoServiceImpl(val repository:MemoRepository): MemoService{
     override fun getMemos(): List<Memo> {
         return repository.findAll().map{
