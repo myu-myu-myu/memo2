@@ -10,16 +10,15 @@ import java.util.function.Function
 
 class MemoRepositoryTestDouble: MemoRepository {
     var findAll_isCalled = false
-    var findAll_returnValue = mutableListOf(MemoEntity(
-        id=2,
-        user_id = 3,
-        create_date = 299,
-        update_date = 300,
-        content = "repositoryからの返り値"
-    ))
+    var findAll_returnValue = mutableListOf<MemoEntity>()
+    var save_isCalled = false
+    var save_returnValue = MemoEntity()
+    var save_argument = MemoEntity()
 
     override fun <S : MemoEntity?> save(entity: S & Any): S & Any {
-        TODO("Not yet implemented")
+        save_isCalled = true
+        save_argument = entity
+        return save_returnValue as (S & Any)
     }
 
     override fun <S : MemoEntity?> saveAll(entities: MutableIterable<S>): MutableList<S> {
