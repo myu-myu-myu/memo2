@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb5ef636-0447-46fa-8000-1d8f82b91dac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc9941e1-1d1c-416d-a4b5-a1462951e050.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc9941e1-1d1c-416d-a4b5-a1462951e050.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc9941e1-1d1c-416d-a4b5-a1462951e050/storage_v2/_src_/database/memo_app_ogata.U83CLw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc9941e1-1d1c-416d-a4b5-a1462951e050/storage_v2/_src_/database/memo_app_ogata.U83CLw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -67,9 +71,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Docker.Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml: Compose デプロイ.executor": "Run",
     "Gradle.MemoServiceTests.executor": "Run",
     "Gradle.MemoServiceTests.it should return list of Memo.executor": "Run",
+    "Gradle.PatchTests.it should call memoservice updatememo with correct argument.executor": "Run",
+    "Gradle.PatchTests.it should return list of Memo.executor": "Run",
+    "Gradle.PatchTests.it should return status code 200.executor": "Run",
     "Gradle.backend のビルド.executor": "Run",
+    "Gradle.deleteMemoTest for service.it should call repository_deleteById with correct argument.executor": "Run",
+    "Gradle.deleteMemoTest for service.it should call repository_deleteById.executor": "Run",
+    "Gradle.deleteTests.it should call MemoService delete with correct argument.executor": "Run",
+    "Gradle.deleteTests.it should call MemoService delete.executor": "Run",
+    "Gradle.deleteTests.it should return status code 200.executor": "Run",
+    "Gradle.getMemosTests.it should return list of Memo.executor": "Debug",
     "Gradle.postMemoTests for service.it should call repository_save.executor": "Run",
     "Gradle.postMemoTests for service.it should call with correct argument.executor": "Run",
     "Gradle.postMemoTests for service.it should return Memo.executor": "Run",
@@ -78,12 +92,16 @@
     "Gradle.postMemoTests.it should call memoService_postMemo().executor": "Run",
     "Gradle.postMemoTests.it should return Memo.executor": "Run",
     "Gradle.postMemoTests.it should return status code 200.executor": "Run",
+    "Gradle.updateMemoTest for service.it should call repository_save.executor": "Run",
+    "Gradle.updateMemoTest for service.it should call with correct argument.executor": "Run",
+    "Gradle.updateMemoTest for service.it should return Memo.executor": "Run",
     "JUnit.backend-Alltest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/user/Documents/devs/DIG/DIG5/0205-0210/memo2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +110,7 @@
     "project.structure.last.edited": "モジュール",
     "project.structure.proportion": "0.14160156",
     "project.structure.side.proportion": "0.1833713",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -100,8 +119,8 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.Dockerfile">
-    <configuration name="MemoServiceTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.deleteMemoTest for service.it should call repository_deleteById with correct argument">
+    <configuration name="deleteMemoTest for service.it should call repository_deleteById with correct argument" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -114,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.backend_kotlin2.MemoServiceTests&quot;" />
+            <option value="&quot;com.example.backend_kotlin2.MemoServiceTests$deleteMemoTest for service.it should call repository_deleteById with correct argument&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -125,7 +144,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="postMemoTests for service.it should call with correct argument" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="deleteMemoTest for service.it should call repository_deleteById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -138,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.backend_kotlin2.MemoServiceTests$postMemoTests for service.it should call with correct argument&quot;" />
+            <option value="&quot;com.example.backend_kotlin2.MemoServiceTests$deleteMemoTest for service.it should call repository_deleteById&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,7 +168,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="postMemoTests for service.it should return Memo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="deleteTests.it should call MemoService delete with correct argument" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -162,7 +181,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.backend_kotlin2.MemoServiceTests$postMemoTests for service.it should return Memo&quot;" />
+            <option value="&quot;com.example.backend_kotlin2.MemoControllerTests$deleteTests.it should call MemoService delete with correct argument&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,7 +192,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="postMemoTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="deleteTests.it should call MemoService delete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -186,7 +205,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.backend_kotlin2.MemoControllerTests$postMemoTests&quot;" />
+            <option value="&quot;com.example.backend_kotlin2.MemoControllerTests$deleteTests.it should call MemoService delete&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="deleteTests.it should return status code 200" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.backend_kotlin2.MemoControllerTests$deleteTests.it should return status code 200&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,11 +253,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
+    <configuration name="BackendKotlin2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="backend_kotlin2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.backend_kotlin2.BackendKotlin2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
       </deployment>
       <method v="2" />
     </configuration>
@@ -225,20 +274,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.Dockerfile" />
-      <item itemvalue="Gradle.postMemoTests" />
-      <item itemvalue="Gradle.MemoServiceTests" />
-      <item itemvalue="Gradle.postMemoTests for service.it should call with correct argument" />
-      <item itemvalue="Gradle.postMemoTests for service.it should return Memo" />
+      <item itemvalue="Gradle.deleteMemoTest for service.it should call repository_deleteById" />
+      <item itemvalue="Gradle.deleteMemoTest for service.it should call repository_deleteById with correct argument" />
+      <item itemvalue="Gradle.deleteTests.it should call MemoService delete" />
+      <item itemvalue="Gradle.deleteTests.it should call MemoService delete with correct argument" />
+      <item itemvalue="Gradle.deleteTests.it should return status code 200" />
       <item itemvalue="JUnit.backend-Alltest" />
+      <item itemvalue="Spring Boot.BackendKotlin2Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Gradle.postMemoTests" />
-        <item itemvalue="Gradle.postMemoTests for service.it should call with correct argument" />
-        <item itemvalue="Gradle.postMemoTests for service.it should return Memo" />
-        <item itemvalue="Gradle.MemoServiceTests" />
+        <item itemvalue="Gradle.deleteMemoTest for service.it should call repository_deleteById with correct argument" />
+        <item itemvalue="Gradle.deleteMemoTest for service.it should call repository_deleteById" />
+        <item itemvalue="Gradle.deleteTests.it should call MemoService delete with correct argument" />
+        <item itemvalue="Gradle.deleteTests.it should call MemoService delete" />
+        <item itemvalue="Gradle.deleteTests.it should return status code 200" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +309,10 @@
       <updated>1707354467131</updated>
       <workItem from="1707354468176" duration="296000" />
       <workItem from="1707355226752" duration="11136000" />
-      <workItem from="1707442742435" duration="5512000" />
+      <workItem from="1707442742435" duration="8236000" />
+      <workItem from="1707574481142" duration="9542000" />
+      <workItem from="1707867858555" duration="20711000" />
+      <workItem from="1707952194435" duration="24072000" />
     </task>
     <servers />
   </component>
@@ -276,5 +329,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="memoService.getMemos()" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
